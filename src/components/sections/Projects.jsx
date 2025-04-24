@@ -7,6 +7,15 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'Virtual Mouse using Hand Gestures',
+      category: 'cv',
+      image: 'https://via.placeholder.com/600x400',
+      description: 'Developed a computer vision system that allows users to control their mouse cursor using hand gestures captured via webcam, enabling touchless computer interaction.',
+      technologies: ['Python', 'MediaPipe', 'OpenCV', 'PyAutoGUI', 'Pynput', 'Computer Vision'],
+      github: 'https://github.com/Akshan03/Virtual-Mouse',
+      demo: null,
+    },
+    {
       title: 'Personal Finance Agentic AI',
       category: 'ai',
       image: 'https://via.placeholder.com/600x400',
@@ -62,6 +71,7 @@ const Projects = () => {
     { name: 'AI', value: 'ai' },
     { name: 'ML', value: 'ml' },
     { name: 'NLP', value: 'nlp' },
+    { name: 'CV', value: 'cv' },
     { name: 'Web', value: 'web' },
     { name: 'Data', value: 'data' },
   ];
@@ -146,14 +156,16 @@ const Projects = () => {
                   >
                     <FaGithub className="mr-2" /> GitHub
                   </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-gray-700 hover:text-primary transition-colors"
-                  >
-                    <FaExternalLinkAlt className="mr-2" /> Live Demo
-                  </a>
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-700 hover:text-primary transition-colors"
+                    >
+                      <FaExternalLinkAlt className="mr-2" /> Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>

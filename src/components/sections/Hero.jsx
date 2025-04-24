@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
-import profileImage from '../../assets/images/profile.jpg'; // Update this path to match your actual image file
+import profileImage from '../../assets/images/profile.jpg';
+import resumePDF from '../../assets/resume.pdf';
 
 const Hero = () => {
   return (
@@ -33,9 +34,9 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="/assets/resume.pdf"
+                href={resumePDF}
                 className="btn-outline flex items-center"
-                download
+                download="Akshan_Verma_Resume.pdf"
               >
                 <FaDownload className="mr-2" /> Download CV
               </a>

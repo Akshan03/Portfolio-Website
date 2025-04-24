@@ -32,8 +32,9 @@ const Skills = () => {
       skills: [
         { name: 'Git & GitHub', icon: <FaGitAlt className="text-[#F05032]" />, level: 85 },
         { name: 'NumPy & Pandas', icon: <FaChartBar className="text-[#150458]" />, level: 80 },
+        { name: 'OpenCV', icon: <FaEye className="text-[#5C3EE8]" />, level: 80 },
+        { name: 'MediaPipe', icon: <FaEye className="text-[#00A3E0]" />, level: 75 },
         { name: 'Matplotlib & Seaborn', icon: <FaChartBar className="text-[#11557C]" />, level: 75 },
-        { name: 'OpenCV', icon: <FaEye className="text-[#5C3EE8]" />, level: 70 },
         { name: 'MySQL', icon: <FaDatabase className="text-[#4479A1]" />, level: 75 },
       ]
     }
