@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS to showcase my skills, projects, and professional experience.
 
-![Portfolio Preview](https://via.placeholder.com/800x400)
+![Portfolio Preview]([https://via.placeholder.com/800x400](https://akshan-portfolio.vercel.app/))
 
 ## 🚀 Features
 
