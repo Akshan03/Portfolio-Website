@@ -2,7 +2,9 @@
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS to showcase my skills, projects, and professional experience.
 
-![Portfolio Preview]([https://via.placeholder.com/800x400](https://akshan-portfolio.vercel.app/))
+[**Live Website**](https://akshan-portfolio.vercel.app/)
+
+![Portfolio Preview](https://akshan-portfolio.vercel.app/og-image.png)
 
 ## 🚀 Features
 
@@ -89,8 +91,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Akshan Verma - [akshanverm0310@gmail.com](mailto:akshanverm0310@gmail.com)
 
-Project Link: [https://github.com/Akshan03/Portfolio-Website](https://github.com/Akshan03/Portfolio-Website)
+Project Link: [https://github.com/Akshan03/Portfolio-Website](https://github.com/Akshan03/Portfolio-Website)  
+Live Website: [https://akshan-portfolio.vercel.app/](https://akshan-portfolio.vercel.app/)
 
 ---
 
 Built with ❤️ by Akshan Verma
+
+---
