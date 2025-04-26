@@ -4,8 +4,6 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS 
 
 [**Live Website**](https://akshan-portfolio.vercel.app/)
 
-![Portfolio Preview](https://akshan-portfolio.vercel.app/og-image.png)
-
 ## 🚀 Features
 
 - **Responsive Design**: Looks great on all devices from mobile to desktop
