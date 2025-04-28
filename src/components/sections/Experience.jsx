@@ -7,13 +7,13 @@ const Experience = () => {
       title: 'Generative Artificial Intelligence Intern',
       company: 'VectoScalar Technologies',
       period: 'Dec 2024 - Current',
-      description: 'Built various Agentic AI features for applications using Langgraph/Langchain, Autogen. Built APIs to integrate the project using Fast API which resulted in seamless understanding of the project.',
+      description: 'Developed generative AI-powered agentic features (Langchain, Autogen), including a workflow toolthat reduced development effort. Developed an LLM-based question-answering application for students, achieving a 92% accuracy ratein answer generation.',
     },
     {
       title: 'AI Robustness Testing Research Intern',
       company: 'Defence Research and Development Organisation (DRDO)',
       period: 'Nov 2023 - Jan 2024',
-      description: 'Conducted robustness testing of Tensorflow-based AI models, identifying vulnerabilities and failure points. Integrated robustness testing seamlessly into the Tensorflow-based AI development lifecycle.',
+      description: 'Conducted robustness testing of Tensorflow-based Al models, identifying vulnerabilities and failure points. Improved model robustness by 6% through adversarial training Integrated robustness testing seamlessly into the Tensorflow-based AI development lifecycle resulting in a more streamlined testing process and earlier detection of vulnerabilities.',
     },
     {
       title: 'Software Development Intern',
